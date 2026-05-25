@@ -13,3 +13,8 @@ The two PoolDemo scripts are to just show that everything works by spawning the 
 Weapons are harder to set up, but it still shouldn't take very long. What is needed immediatley is an empty object with the WeaponController script and WeaponDemoInput script, along with a prefab Projectile with the Projectile script. Also, the Weapon object will need an empty child object to be the fire point.
 
 Assign everything and then you can create the weapons through data. You can create as many as you want and assign their names and separate data for them, just make sure the Projectile prefab is on all of them and are referenced in the WeaponController index. From there, it should fire properly!
+
+3. Time Systems:
+The Time System isn't too hard to set up and get plugged in to fit your needs. The main two scripts that are needed are TimeManager and GameEvents. TimeManager goes on an empty script and GameEvents can just hang out. For the demo scripts, TimeDemoInput can be placed on its own empty game object or thrown onto the manager. And to visually show things there is a moving cube that is effected by the time changes with TimeDemoMover.
+
+When you start up the scene you should see the cube moving. Pressing 1 will make time flow normally, while pressing 2 will cause time to slow down.
