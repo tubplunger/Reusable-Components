@@ -18,3 +18,8 @@ Assign everything and then you can create the weapons through data. You can crea
 The Time System isn't too hard to set up and get plugged in to fit your needs. The main two scripts that are needed are TimeManager and GameEvents. TimeManager goes on an empty script and GameEvents can just hang out. For the demo scripts, TimeDemoInput can be placed on its own empty game object or thrown onto the manager. And to visually show things there is a moving cube that is effected by the time changes with TimeDemoMover.
 
 When you start up the scene you should see the cube moving. Pressing 1 will make time flow normally, while pressing 2 will cause time to slow down.
+
+4. Event System:
+The Event System is extremely easy to set up and change as needed. For the demo, the GameEvents script from before is the only thing needed, though to show it working I have also created EventDemoButtonPublisher and EventDemoSubscriber.
+
+From there, you make three empty objects, one for the publisher and two for the subscriber. From there you can press space or enter and both should pop up in the console!
