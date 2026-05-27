@@ -23,3 +23,10 @@ When you start up the scene you should see the cube moving. Pressing 1 will make
 The Event System is extremely easy to set up and change as needed. For the demo, the GameEvents script from before is the only thing needed, though to show it working I have also created EventDemoButtonPublisher and EventDemoSubscriber.
 
 From there, you make three empty objects, one for the publisher and two for the subscriber. From there you can press space or enter and both should pop up in the console!
+
+5. Enemy AI:
+AI is the last thing in this demo and isn't too hard to set up. All that is really needed is the EnemyAI script and Projectile script, though you should already have that for object pooling.
+
+For it all to work you need an enemy object with the EnemyAI script and a fire point, a target object, and some patrol points. The target becomes the Player, patrol points are patrol points, the fire point is the fire point, and the prefab used for the projectile is the projectile. The target itself doesn't need any scripts though there is a demo script to move it around so you can see it.
+
+The AI's values can easily be changed in the inspector, which allows for easy varient creation using the same systems without having to change anything!

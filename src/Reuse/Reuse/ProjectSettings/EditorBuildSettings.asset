@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Event Systems.unity
     guid: a0c0f60b8678e4340b919fa7991b9407
+  - enabled: 1
+    path: Assets/Scenes/AI.unity
+    guid: fee52c4c6489b6c48a9f13c865c0fa36
+  - enabled: 1
+    path: Assets/Scenes/Time System.unity
+    guid: f2dd0f6e3a1704b499e3394f3e612b99
+  - enabled: 1
+    path: Assets/Scenes/Weapons.unity
+    guid: 6c72f3ca14c67714598cfa43796e6da3
   m_configObjects: {}
